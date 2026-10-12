@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "games": [
+    {
+      "id": "001-puppet-hospital",
+      "title": "玩偶小医院·苏教生物与图画版",
+      "version": "1.1",
+      "audience": "3岁妹妹、初一哥哥与父母",
+      "duration": "一位玩偶8至12分钟",
+      "themes": [
+        "角色扮演",
+        "家庭合作",
+        "初一生物"
+      ],
+      "path": "games/001-puppet-hospital",
+      "download": "downloads/001-puppet-hospital/玩偶小医院苏教生物图画版.zip"
+    },
+    {
+      "id": "002-poetry-dance",
+      "title": "诗画小舞会",
+      "version": "1.0",
+      "audience": "3岁女孩与父母",
+      "duration": "约8至12分钟",
+      "themes": [
+        "舞蹈动作",
+        "古诗",
+        "汉字",
+        "亲子合作"
+      ],
+      "path": "games/002-poetry-dance",
+      "download": "downloads/002-poetry-dance/诗画小舞会亲子套装.zip"
+    }
+  ]
+}

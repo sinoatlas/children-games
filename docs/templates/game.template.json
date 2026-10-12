@@ -1,0 +1,26 @@
+{
+  "id": "003-example-game",
+  "title": "游戏中文名",
+  "version": "1.0",
+  "created_at": "YYYY-MM-DD",
+  "audience": "适用年龄与参与者",
+  "duration": "建议时长",
+  "themes": [
+    "主题"
+  ],
+  "status": "家庭初版，未实际试玩",
+  "files": {
+    "rulebook": "printable/规则书.pdf",
+    "materials": "printable/打印材料.pdf",
+    "rules_source": "editable/规则源稿.md",
+    "cards_source": "editable/卡片源稿.md",
+    "cards_data": "editable/cards.json",
+    "sources": "references/资料来源.md"
+  },
+  "pdf_pages": {
+    "rulebook": 0,
+    "materials": 0
+  },
+  "first_session_material_pages": [],
+  "assets": []
+}

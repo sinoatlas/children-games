@@ -1,0 +1,64 @@
+{
+  "id": "001-puppet-hospital",
+  "title": "玩偶小医院·苏教生物与图画版",
+  "version": "1.1",
+  "created_at": "2026-10-12",
+  "audience": "3岁妹妹、初一哥哥与父母",
+  "duration": "一位玩偶8至12分钟",
+  "themes": [
+    "角色扮演",
+    "家庭合作",
+    "初一生物"
+  ],
+  "status": "家庭初版，未实际试玩",
+  "files": {
+    "rulebook": "printable/规则书.pdf",
+    "materials": "printable/打印材料.pdf",
+    "rules_source": "editable/规则源稿.md",
+    "cards_source": "editable/卡片源稿.md",
+    "cards_data": "editable/cards.json",
+    "sources": "references/资料来源.md",
+    "image_prompt": "references/图画提示词.md"
+  },
+  "pdf_pages": {
+    "rulebook": 10,
+    "materials": 18
+  },
+  "first_session_material_pages": [
+    1,
+    3,
+    6,
+    8,
+    10,
+    13,
+    14,
+    17,
+    18
+  ],
+  "assets": [
+    "assets/医院图画素材.png"
+  ],
+  "builder": {
+    "entry": "build_hospital.py",
+    "source_files": [
+      "build_hospital.py",
+      "hospital_biology.py"
+    ],
+    "working_directory_name": "玩偶小医院苏教生物图画版",
+    "asset_filename": "医院图画素材.png",
+    "prompt_filename": "医院图画生成说明.md",
+    "outputs": {
+      "01_玩偶小医院规则书.pdf": "printable/规则书.pdf",
+      "02_玩偶小医院打印材料.pdf": "printable/打印材料.pdf",
+      "03_规则书可修改源稿.md": "editable/规则源稿.md",
+      "04_卡片可修改源稿.md": "editable/卡片源稿.md",
+      "cards.json": "editable/cards.json",
+      "05_生物主题与来源.md": "references/资料来源.md",
+      "06_图画生成说明.md": "references/图画提示词.md",
+      "00_开始这里.md": "references/原套装开始说明.md",
+      "assets/医院图画素材.png": "assets/医院图画素材.png",
+      "build_hospital.py": "src/build_hospital.py",
+      "hospital_biology.py": "src/hospital_biology.py"
+    }
+  }
+}

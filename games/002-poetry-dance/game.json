@@ -1,0 +1,59 @@
+{
+  "id": "002-poetry-dance",
+  "title": "诗画小舞会",
+  "version": "1.0",
+  "created_at": "2026-10-12",
+  "audience": "3岁女孩与父母",
+  "duration": "约8至12分钟",
+  "themes": [
+    "舞蹈动作",
+    "古诗",
+    "汉字",
+    "亲子合作"
+  ],
+  "status": "家庭初版，未实际试玩",
+  "files": {
+    "rulebook": "printable/规则书.pdf",
+    "materials": "printable/打印材料.pdf",
+    "rules_source": "editable/规则源稿.md",
+    "cards_source": "editable/卡片源稿.md",
+    "cards_data": "editable/cards.json",
+    "sources": "references/资料来源.md",
+    "image_prompt": "references/图画提示词.md"
+  },
+  "pdf_pages": {
+    "rulebook": 6,
+    "materials": 11
+  },
+  "first_session_material_pages": [
+    1,
+    2,
+    5,
+    7,
+    10
+  ],
+  "assets": [
+    "assets/诗画小舞会动作插画.png"
+  ],
+  "builder": {
+    "entry": "build_dance.py",
+    "source_files": [
+      "build_dance.py"
+    ],
+    "working_directory_name": "诗画小舞会亲子套装",
+    "asset_filename": "诗画小舞会动作插画.png",
+    "prompt_filename": "诗画小舞会图画生成说明.md",
+    "outputs": {
+      "01_诗画小舞会规则书.pdf": "printable/规则书.pdf",
+      "02_诗画小舞会打印材料.pdf": "printable/打印材料.pdf",
+      "03_规则可修改源稿.md": "editable/规则源稿.md",
+      "04_卡片可修改源稿.md": "editable/卡片源稿.md",
+      "cards.json": "editable/cards.json",
+      "05_古诗与图画来源.md": "references/资料来源.md",
+      "06_图画生成说明.md": "references/图画提示词.md",
+      "00_开始这里.md": "references/原套装开始说明.md",
+      "assets/诗画小舞会动作插画.png": "assets/诗画小舞会动作插画.png",
+      "build_dance.py": "src/build_dance.py"
+    }
+  }
+}
